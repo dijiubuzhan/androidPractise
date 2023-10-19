@@ -27,7 +27,7 @@ import com.example.android.hilt.util.DateFormatter
 
 class ServiceLocator(applicationContext: Context) {
 
-    private val logsDatabase = Room.databaseBuilder(
+    /*private val logsDatabase = Room.databaseBuilder(
         applicationContext,
         AppDatabase::class.java,
         "logging.db"
@@ -39,5 +39,5 @@ class ServiceLocator(applicationContext: Context) {
 
     fun provideNavigator(activity: FragmentActivity): AppNavigator {
         return AppNavigatorImpl(activity)
-    }
+    }*/
 }
